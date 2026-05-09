@@ -172,14 +172,7 @@
             </p>
             
             <!-- Gemini LLM Feature 1 -->
-            <div class="bg-white/10 p-5 rounded-xl mb-6 border border-pink-300/30">
-                <p class="text-sm text-pink-200 mb-3 italic">Let's make a new memory... enter a topic below (e.g., 'our first date', 'rainy days') and I'll write you a magic poem!</p>
-                <input type="text" id="memory-prompt" placeholder="Enter a memory topic..." class="w-full px-4 py-2 rounded-lg bg-black/40 border border-pink-400/50 text-white placeholder-gray-400 focus:outline-none focus:border-pink-400 mb-3">
-                <button onclick="generatePoem()" class="w-full py-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-lg font-bold shadow-md transition-colors text-white">
-                    Generate Magic Poem ✨
-                </button>
-                <div id="poem-output" class="mt-4 text-[15px] leading-relaxed text-pink-100 italic whitespace-pre-line hidden border-t border-pink-300/30 pt-3"></div>
-            </div>
+            
 
             <button onclick="nextPage(4)" class="w-full py-3 bg-rose-500 hover:bg-rose-600 rounded-full font-bold shadow-lg transition-colors text-white">
                 See Our Pictures ❤️
@@ -192,18 +185,17 @@
         <h2 class="text-4xl text-pink-300 mb-4 drop-shadow-md">Picture Perfect 📸</h2>
         
         <!-- Scrollable Container -->
-        <div class="flex-1 w-full max-w-md overflow-y-auto pb-8 hide-scrollbar" style="max-height: 65vh;">
-            <!-- Image 1 -->
-            <div class="polaroid">
+        <div class="flex-1 w-full max-w-md overflow-y-auto pb-8 hide-scrollbar" style="max-height: 65vh;">    
+            <!-- Image 1 -->            
                 <!-- Replace src with your image -->
                 <img src="044A0597.JPG" alt="Memory 1">
                 <p class="mt-3 font-semibold text-pink-600 fancy-font text-xl">The day we met...</p>
-            </div>
+            
             <!-- Image 2 -->
-            <div class="polaroid">
+            
                 <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=400&q=80" alt="Memory 2">
                 <p class="mt-3 font-semibold text-pink-600 fancy-font text-xl">Endless smiles with you.</p>
-            </div>
+            
             <!-- Image 3 -->
             <div class="polaroid">
                 <img src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?auto=format&fit=crop&w=400&q=80" alt="Memory 3">
